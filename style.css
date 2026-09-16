@@ -482,6 +482,25 @@ body {
   margin: 0;
 }
 
+.grid-img {
+  height: 328px;
+  object-fit: cover;
+  border-radius: 13px;
+}
+
+.about-us-grid {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.about-img {
+  height: 328px;
+  object-fit: contain;
+  border-radius: 13px;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
@@ -690,6 +709,16 @@ html {
   .grid-img {
     width: 100%;
     object-fit: cover ;
+  }
+
+  .about-us-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-img {
+    object-fit: contain;
+    border-radius: 13px;
   }
 
   .contact-grid {
