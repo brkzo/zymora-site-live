@@ -14,8 +14,11 @@ class ZymoraHeader extends HTMLElement {
                 <a href="#realizacje" class="nav-link">Realizacje</a>
                 </li>
                 <li class="nav-item">
+                <a href="#o-nas" class="nav-link">O nas</a>
+                </li>
                 <a href="#kontakt" class="nav-link">Kontakt</a>
                 </li>
+                <li class="nav-item">
             </ul>
             </nav>
         </header>
